@@ -32,6 +32,13 @@
     <Compile Include="app\tests.py" />
     <Compile Include="app\views.py" />
     <Compile Include="app\__init__.py" />
+    <Compile Include="DjangoWebProject1\Test\admin.py" />
+    <Compile Include="DjangoWebProject1\Test\apps.py" />
+    <Compile Include="DjangoWebProject1\Test\migrations\__init__.py" />
+    <Compile Include="DjangoWebProject1\Test\models.py" />
+    <Compile Include="DjangoWebProject1\Test\tests.py" />
+    <Compile Include="DjangoWebProject1\Test\views.py" />
+    <Compile Include="DjangoWebProject1\Test\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProject1\__init__.py" />
     <Compile Include="DjangoWebProject1\settings.py" />
@@ -48,8 +55,14 @@
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
     <Folder Include="DjangoWebProject1\" />
+    <Folder Include="DjangoWebProject1\Test\" />
+    <Folder Include="DjangoWebProject1\Test\migrations\" />
+    <Folder Include="DjangoWebProject1\Test\templates\" />
+    <Folder Include="DjangoWebProject1\Test\templates\Test\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DjangoWebProject1\Test\templates\Test\index.html" />
+    <Content Include="libman.json" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
